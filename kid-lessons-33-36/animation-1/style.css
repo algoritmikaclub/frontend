@@ -1,0 +1,189 @@
+body {    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+button {
+    position: relative;
+    padding: 0 20px;
+    width: 280px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    font-size: 32px;
+    background-color: lime;
+    margin: 20px 10px;
+    text-align: left;
+    cursor: pointer;
+}
+button span {
+    position: absolute;
+    right: 20px;
+}
+
+.animation-1 {
+    background-image: linear-gradient(to left, lime, yellow, lime);
+    animation: animation-1 3s infinite linear;
+}
+@keyframes animation-1 {
+    0% {filter: hue-rotate(0deg);}
+    33% {filter: hue-rotate(-60deg);}
+    66% {filter: hue-rotate(60deg);}
+    100% {filter: hue-rotate(0deg);}
+}
+
+.animation-2 span{
+    animation: animation-2 2.4s infinite ease-in;
+}
+@keyframes animation-2 {
+    0% {transform: translateX(0);}
+    15% {transform: translateX(-30px);}
+    30% {transform: translateX(0);}
+    45% {transform: translateX(-30px);}
+    60% {transform: translateX(0);}
+}
+
+.animation-3 span {
+    animation: animation-3 2.4s infinite ease-in-out;
+    transition: color 0.6s linear;
+}
+.animation-3:hover span{
+    color: yellow;
+    animation: animation-3-hover 1.2s infinite linear;
+}
+@keyframes animation-3 {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(-30deg);}
+    40% {transform: rotate(30deg);}
+    60% {transform: rotate(0deg);}
+}
+@keyframes animation-3-hover {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/**/
+
+.animation-4{
+    animation: animation-4 2.4s infinite ease-in-out;
+}
+.animation-4:hover span{
+    animation: animation-4-span 1.2s infinite ease-in-out;
+}
+@keyframes animation-4 {
+    0% {background-color: aqua;}
+    50% {background-color: blue}
+    100% {background-color: aqua;}
+}
+@keyframes animation-4-span {
+    0% {transform: rotate(0deg);}
+    20% {transform: rotate(-30deg);}
+    40% {transform: rotate(30deg);}
+    60% {transform: rotate(0deg);}
+}
+
+.animation-5{
+    color: white;
+    background-color: darkmagenta;
+}
+.animation-5 span{
+    animation: animation-5 2.4s infinite ease-in-out;
+}
+@keyframes animation-5 {
+    0% {transform: scale(1);}
+    50% {transform: scale(2);}
+    100% {transform: scale(1);}
+}
+
+.animation-6{
+    background-color: white;
+    overflow: hidden;
+}
+.animation-6 span{
+    color:blue;
+    animation: animation-6 7.2s infinite linear;
+}
+.animation-6::before {
+    content: '💧';
+    font-size: 12px;
+    position: absolute;
+    top: -40px; /* -> 75px to bottom */
+    left: 20px; /* 0 ... 260*/
+    animation: animation-6-drop 3.2s infinite linear;
+}
+@keyframes animation-6 {
+    0% {transform: translateX(-260px);}
+    100% {transform: translateX(60px);}
+}
+@keyframes animation-6-drop {
+    0% {transform: translateY(0); left: 20px;}
+    17% {transform: translateY(75px); left: 20px;}
+
+    17.01% {transform: translateY(0); left: 120px;}
+    34% {transform: translateY(75px); left: 120px;}
+
+    34.01% {transform: translateY(0); left: 240px;}
+    51% {transform: translateY(75px); left: 240px;}
+
+    51.01% {transform: translateY(0); left: 60px;}
+    68% {transform: translateY(75px); left: 60px;}
+
+    68.01% {transform: translateY(0); left: 160px;}
+    85% {transform: translateY(75px); left: 160px;}
+
+    85.01% {transform: translateY(0); left: 200px;}
+    100% {transform: translateY(75px); left: 200px;}
+}
+
+.animation-7{
+    color: red;
+    background-color: darkgrey;
+    animation: animation-7 1.2s infinite ease-in-out;
+}
+@keyframes animation-7 {
+    from {filter: hue-rotate(0);}
+    to {filter: hue-rotate(360deg);}
+}
+
+.animation-8{
+    background-color: white;
+}
+.animation-8 span{
+    animation: animation-8 1.2s infinite linear;
+}
+@keyframes animation-8 { /*color: black; color: green*/
+    0%  { text-shadow: -6px  0px 3px lime;}
+    8%  { text-shadow: -4px  2px 3px lime;}
+    16% { text-shadow: -2px  4px 3px lime;}
+    24% { text-shadow:  0px  6px 3px lime;}
+    32% { text-shadow:  2px  4px 3px lime;}
+    40% { text-shadow:  4px  2px 3px lime;}
+    48% { text-shadow:  6px  0px 3px lime;}
+    56% { text-shadow:  4px -2px 3px lime;}
+    64% { text-shadow:  2px -4px 3px lime;}
+    72% { text-shadow:  0px -6px 3px lime;}
+    80% { text-shadow: -2px -4px 3px lime;}
+    88% { text-shadow: -4px -2px 3px lime;}
+    100%{ text-shadow: -6px  0px 3px lime;}
+}
+
+.animation-9{
+    background-color: white;
+    color: red;
+}
+.animation-9 span{
+    color: black;
+    animation: animation-9 2.4s infinite linear;
+}
+@keyframes animation-9 { /*color: black; color: green*/
+    0%  { transform: rotate(0deg);}
+    20%  { transform: rotate(360deg);}
+    35%  { transform: rotate(720deg);}
+    45%  { transform: rotate(1080deg);}
+    75%  { transform: rotate(0deg);}
+}

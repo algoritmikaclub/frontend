@@ -1,0 +1,120 @@
+body {    
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./space/bg_1200x2070px.jpg);
+    background-size: 1200px 2070px;
+    background-position: center top;
+    animation: space 90s linear infinite;
+}
+@keyframes space {
+    0%  {background-position: center top;}
+    100%{background-position: center 2070px;}
+}
+
+/* GALAXY */
+.galaxy {
+    position: absolute;
+    animation: galaxy 30s linear infinite;
+}
+@keyframes galaxy {
+    0%  {
+        transform: rotate(0);
+        top: -500px;
+        left: 200px;
+    }
+    100%{
+        transform: rotate(-360deg);
+        top: 100vh;
+        left: calc(100vw - 500px);
+    }
+}
+
+/* STARS */
+.star-1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    opacity: 0;
+    animation: star 6s linear infinite;
+}
+.star-2 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    opacity: 0;
+    animation: star 6s 2s linear infinite;
+}
+@keyframes star {
+    0%  { opacity: 0; top: 200px; left: 200px; }
+    10% { opacity: 1; }
+    20% { opacity: 0; top: 200px; left: 200px;}
+    25% { opacity: 0; top: calc(100vh - 300px); left: calc(100vw - 300px); }
+    35% { opacity: 1; }
+    45% { opacity: 0; top: calc(100vh - 300px); left: calc(100vw - 300px);}
+    50% { opacity: 0; top: 200px; left: calc(100vw - 300px); }
+    55% { opacity: 1; }
+    65% { opacity: 0; top: 200px; left: calc(100vw - 300px);}
+    70% { opacity: 0; top: calc(100vh - 300px); left: 200px; }
+    80% { opacity: 1; }
+    90% { opacity: 0; top: calc(100vh - 300px); left: 200px;}
+}
+
+/* PLANETS */
+.planet-1 {
+    position: absolute;
+    top: 0;
+    left: -260px;
+    animation: planet-move-1 24s linear infinite, planet-inner 24s linear infinite;
+}
+.planet-2 {
+    position: absolute;
+    top: -260px; 
+    left: -260px;
+    animation: planet-move-2 23s 7s linear infinite, planet-inner 23s 7s linear infinite;
+}
+.planet-3 {
+    position: absolute;
+    top: -260px;
+    left: 0;
+    animation: planet-move-3 22s 12s linear infinite, planet-inner 22s 12s linear infinite;
+}
+@keyframes planet-move-1 {
+    0%  { top: 0;     left: -260px;} 
+    100%{ top: 100vh; left: calc(100vw - 260px);  }
+}
+@keyframes planet-move-2 {
+    0%  { top: -260px; left: -260px;} 
+    100%{ top: calc(100vh + 260px);  left: calc(100vw + 260px);  }
+}
+@keyframes planet-move-3 {
+    0%  { top: -260px; left: 260;} 
+    100%{ top: 100vh;  left: calc(100vw + 260px);  }
+}
+@keyframes planet-inner {
+    0%  { filter:brightness(0.5); transform: scale(0.2); }
+    100%{ filter:brightness(1.5); transform: scale(1); }
+}
+
+/* SUN */
+.sun-yellow {
+    position: absolute;
+    animation: sun-yellow 20s linear infinite, sun-brightness 16s linear infinite;
+}
+@keyframes sun-yellow {
+    0%  { top: -500px; left: 200px; }
+    100%{ top: 100vh;  left: calc(100vw - 500px); }
+}
+@keyframes sun-brightness {
+     0%  { filter: brightness(1); }
+    10%  { filter: brightness(1.5); }
+    15%  { filter: brightness(1); }
+    25%  { filter: brightness(2); }
+    45%  { filter: brightness(1.5); }
+    50%  { filter: brightness(2); }
+    60%  { filter: brightness(1); }
+    75%  { filter: brightness(1.5); }
+    90%  { filter: brightness(2); }
+}
