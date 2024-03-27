@@ -1,0 +1,35 @@
+body {    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 320px;
+    margin: 20px;
+    transition: filter 0.6s ease;
+}
+
+.blur:hover {filter: blur(6px)}
+.grayscale:hover {filter: grayscale(1)} 
+.brightness:hover {filter: brightness(2)} 
+.contrast:hover {filter: contrast(4)} 
+.sepia:hover {filter: sepia(1)} 
+.hue-rotate:hover {filter: hue-rotate(180deg)} 
+.opacity:hover {filter: opacity(0.2)} 
+.drop-shadow:hover {filter: drop-shadow(0 0 0.75rem crimson)} 
+
+/*
+blur() для размытия элементов
+grayscale() для преобразования изображений в черно-белые
+brightness() для изменения яркости элементов
+contrast() для изменения контрастности элементов
+sepia() для создания эффекта старых фотографий
+hue-rotate() для изменения оттенка элементов
+opacity() для изменения прозрачности элементов
+drop-shadow() для добавления тени к элементам
+*/

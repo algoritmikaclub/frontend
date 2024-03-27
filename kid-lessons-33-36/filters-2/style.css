@@ -1,0 +1,55 @@
+body {    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 0 2px 12px pink;
+    background-color: purple;
+    border-bottom: 6px solid gold;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden; /* скрываем углы картинок вышедшие за края */
+    border: 6px solid gold;
+    transition: filter 0.6s ease, transform 0.6s ease;
+}
+div:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    filter: drop-shadow(0 3px 4px aquamarine)
+}
+img {
+    display: block;
+    width: 320px;
+    filter: sepia(1);
+    transition: filter 0.6s ease;
+}
+div:hover img {
+    filter: sepia(0) brightness(1.2) ;
+}
+p {
+    margin: 0;
+    padding: 6px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 0 2px 12px pink;
+    background-color: purple;
+}
