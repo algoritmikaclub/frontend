@@ -1,0 +1,110 @@
+body {    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    background-image: url(https://algoritmikaclub.github.io/frontend/nnnc/bg.jpg);
+}
+
+header {
+    font-weight: 900;
+    text-align: center;
+    height: 20vw;
+    background-image: url(https://algoritmikaclub.github.io/frontend/nnnc/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 12px#00ffff;
+    overflow: hidden;
+}
+
+h1, h2 {
+    margin: 0;
+    transform: scaleX(1.2);
+}
+h1 {
+    font-size: 10vw;
+    background-image: linear-gradient(rgb(28 0 255), rgb(0 0 0), rgb(149, 0, 255));
+    background-clip: text;
+    color: transparent;
+    animation: h-animation 2s infinite linear;
+}
+@keyframes h-animation {
+    0% {filter: hue-rotate(-30deg);}
+    50% {filter: hue-rotate(30deg);}
+    100% {filter: hue-rotate(-30deg);}
+}
+
+h2 {
+    font-size: 3vw;
+    text-shadow: -1px 2px 4px #ff5820;
+    animation: h-animation 1s infinite linear;
+}
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 36px;
+}
+p {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 1em;
+    text-shadow: 0 0 9px #953eff;
+}
+
+img {
+    border-radius: 0 5vw 0 5vw;
+    box-shadow: 0 2px 12px#00ffff;
+    transition: transform 0.6s, box-shadow 0.6s, filter 0.6s;
+}
+img:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px#00ffff;
+    filter: brightness(1.2)
+}
+
+p {
+    font-size: 0.8em;
+    text-shadow: 0px 2px 6px black;
+}
+
+.image-container {
+    position: relative;
+}
+.full {
+    width: 100%;
+}
+.half {
+    width: 48%;
+}
+.half.right {
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    padding: 10px;
+    background-color: #953eff;
+}
+footer h3 {
+    margin: 0;
+    box-shadow: 0 -3px 12px#00ffff;
+}
+
+@media (max-width: 620px) {
+    .half {
+        width: 100%;
+    }
+    .half.right {
+        position: static;
+    }
+    main {
+        font-size: 20px;
+    }
+}
