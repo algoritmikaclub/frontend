@@ -1,0 +1,77 @@
+html {
+    font-size: 24px;
+}
+  
+body {    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://algoritmikaclub.github.io/frontend/game-dev/bg.jpg);
+    background-size: 36%;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h2 {
+font-size: 1.5rem;
+}
+p {
+font-size:0.8rem;
+}
+
+header {
+    color: #ffffff;
+    background-color: #000a12;
+}
+header h1 {
+    position: relative;
+    top: -36px;
+    margin: 0;
+    font-size: 2rem;
+}
+.red { color: red; }
+.green { color: lime; }
+.blue { color: blue; }
+header img {
+    position: relative;
+    top: 42px;
+    height: 120px;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+}
+.about img {
+    display: block;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 0 60px 0 60px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team { width: 30%; }
+.employee {
+    margin: 0 auto;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: 6px solid #777777;
+}
+.artist { background-image: url(https://algoritmikaclub.github.io/frontend/game-dev/artist.jpg); }
+.designer { background-image: url(https://algoritmikaclub.github.io/frontend/game-dev/designer.jpg); }
+.developer { background-image: url(https://algoritmikaclub.github.io/frontend/game-dev/developer.jpg); }
+
+footer {
+    color: #ffffff;
+    background-color: #000a12;
+    text-align: center;
+    font-size: 1rem;
+    padding: 16px;
+}
