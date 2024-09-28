@@ -1,0 +1,29 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+
+div {
+    max-width: 960px;
+    margin: 30px auto;
+}
+
+img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 12%;
+}
+
+p {
+    box-sizing: border-box;
+    padding-left: 20px;
+    vertical-align: top;
+    display: inline-block;
+    width: 75%;
+    font-size: 20px;
+    text-align: left;
+}
