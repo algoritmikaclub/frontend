@@ -1,0 +1,26 @@
+h2 {
+    margin-top: 32px;
+}
+
+p {
+    box-sizing: border-box;
+    max-width: 580px;
+    margin: 16px auto 32px;
+    padding: 16px;
+    text-align: justify;
+}
+
+img {
+    object-fit: cover;
+    max-width: 580px;
+}
+
+p a {
+    display: block;
+    border: 2px solid lime;
+    text-align: center;
+    border-radius: 6px;
+    width: 200px;
+    margin: 15px auto 30px;
+    color: lime;
+}
