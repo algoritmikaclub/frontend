@@ -1,0 +1,33 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+main {
+    font-size: 48px;
+}
+
+main button, main input {
+    box-sizing: border-box;
+    display: block;
+    width: 420px;
+    font-size: 36px;
+    margin: 20px auto;
+    padding: 6px;
+    border: 2px solid yellow;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+main button:active {
+    color: red;
+}
+
+main p b {
+    color: lime;
+}
