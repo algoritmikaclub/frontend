@@ -1,0 +1,15 @@
+.comment-container {
+    width: 480px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px aqua solid;
+    border-radius: 12px;
+}
+
+.comment-container p {text-align: left;}
+
+.comment-container div {color: lightgray}
+.comment-container div span {
+    color: white;
+    font-weight: bold;
+}
