@@ -1,0 +1,17 @@
+header {
+    border-bottom: 2px solid white;
+    box-shadow: 0 6px 9px #0000ff;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 0 18px #0000ff;
+    animation: color-change 3.6s infinite;
+}
+
+@keyframes color-change {
+    from {filter: hue-rotate(0deg)}
+    to {filter: hue-rotate(360deg)}
+}
