@@ -1,0 +1,7 @@
+.product {
+    width: 360px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 5px solid white;
+    border-radius: 20px;
+}
