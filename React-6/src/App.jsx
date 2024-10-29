@@ -26,15 +26,15 @@ function App() {
         }
     }
 
-    function handlerClick(type) {
+    function handleClick(type) {
         setItems([])
         setResources(type)
     }
 
     return (
         <main>
-            <Button onClick={handlerClick}>users</Button>
-            <Button onClick={handlerClick}>comments</Button>
+            <Button onClick={handleClick}>users</Button>
+            <Button onClick={handleClick}>comments</Button>
             
             <h1>{resources}</h1>
 
