@@ -2,12 +2,12 @@ import './Button.css'
 
 function Button({children, onClick}) {
 
-    function handlerClick() {
+    function handleClick() {
         onClick(children)
     }
 
     return (
-        <button onClick={handlerClick}> {children} </button>
+        <button onClick={handleClick}> {children} </button>
     )
 }
 
