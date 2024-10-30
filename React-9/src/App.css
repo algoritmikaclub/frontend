@@ -1,0 +1,29 @@
+#root {
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#result {
+    width: 380px;
+    font-size: 28px;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: white 2px solid;
+    border-radius: 12px;
+}
+
+#representation-box {
+    width: 380px;
+    height: 160px;
+    line-height: 160px;
+    margin: 10px 0;
+    border: white 4px solid;
+    border-radius: 12px;
+    font-size: 36px;
+    text-align: center;
+}

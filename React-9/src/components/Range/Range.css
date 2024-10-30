@@ -1,0 +1,13 @@
+.rangeContainer {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 260px;
+    cursor: pointer;
+}
+
+label{
+    padding: 0 0 0 10px;
+    font-size: 18px;
+}
