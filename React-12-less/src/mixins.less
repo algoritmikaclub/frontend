@@ -1,0 +1,32 @@
+// mixins.less
+.button-style(@bg-color: navy, @text-color: white) {
+    background-color: @bg-color;
+    color: @text-color;
+    margin: 10px;
+    min-width: 240px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, background-color 0.3s, transform 0.3s;
+    box-shadow: 0 3px 6px spin(@bg-color, 180);
+
+    &:hover {
+        transform: translateY(-3px);
+        background-color: lighten(@bg-color, 30%);
+        box-shadow: 0 6px 9px spin(@bg-color, 180);
+    }
+}
+
+.card-style(@bg-color, @border-color: #ccc) {
+    color: black;
+    background-color: @bg-color;
+    border: 1px solid @border-color;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+

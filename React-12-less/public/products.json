@@ -1,0 +1,218 @@
+{
+    "brands" : [
+        "Sky-Watcher",
+        "Meade",
+        "Levenhuk"
+    ],
+    "types": [
+        "линзовый",
+        "зеркальный",
+        "зеркально-линзовый"
+    ],
+    "models": [
+        {
+            "id": 100001,
+            "name": "Levenhuk Skyline BASE 50T",
+            "brand": "Levenhuk",
+            "type": "линзовый",
+            "focalLength": "600",
+            "lensDiameter": "50",
+            "price": 110,
+            "discountPercentage": 0,
+            "image": "Levenhuk_Skyline_BASE_50T.jpg",
+            "description": "Детский телескоп на легкой треноге. Можно увидеть Луну и звезды, наземные объекты."
+        },
+        {
+            "id": 100002,
+            "name": "Levenhuk Blitz 70 BASE",
+            "brand": "Levenhuk",
+            "type": "линзовый",
+            "focalLength": "700",
+            "lensDiameter": "70",
+            "price": 190,
+            "discountPercentage": 0,
+            "image": "Levenhuk_Blitz_70_BASE.jpg",
+            "description": "Линзовый телескоп, который покажет не только лунные кратеры и горы, но и планеты."
+        },
+        {
+            "id": 100003,
+            "name": "Levenhuk Blitz 114 BASE",
+            "brand": "Levenhuk",
+            "type": "зеркальный",
+            "focalLength": "900",
+            "lensDiameter": "114",
+            "price": 300,
+            "discountPercentage": 5,
+            "image": "Levenhuk_Blitz_114_BASE.jpg",
+            "description": "В этот телескоп можно увидеть Луну, планеты, туманности, галактики и звездные скопления."
+        },
+        {
+            "id": 100004,
+            "name": "Levenhuk Skyline PLUS 115S",
+            "brand": "Levenhuk",
+            "type": "зеркальный",
+            "focalLength": "450",
+            "lensDiameter": "114",
+            "price": 350,
+            "discountPercentage": 0,
+            "image": "Levenhuk_Skyline_PLUS_115S.jpg",
+            "description": "Светосильный рефлектор с фокусным расстоянием 450 мм на тонкой экваториальной монтировке EQ1"
+        },
+        {
+            "id": 100005,
+            "name": "Levenhuk Skyline PLUS 90 MAK",
+            "brand": "Levenhuk",
+            "type": "зеркально-линзовый",
+            "focalLength": "1250",
+            "lensDiameter": "90",
+            "price": 570,
+            "discountPercentage": 7,
+            "image": "Levenhuk_Skyline_PLUS_90_MAK.jpg",
+            "description": "Зеркально-линзовый телескоп Максутова-Кассегрена 90 мм на экваториальной монтировке первого поколения."
+        },
+        {
+            "id": 200001,
+            "name": "Meade Infinity 50",
+            "brand": "Meade",
+            "type": "линзовый",
+            "focalLength": "600",
+            "lensDiameter": "50",
+            "price": 140,
+            "discountPercentage": 0,
+            "image": "Meade_Infinity_50.jpg",
+            "description": "Легкий и простой. В него можно наблюдать Луну, яркие звезды. С помощью почти таких же телескопов астрономы в средние века совершили впечатляющие открытия."
+        },
+        {
+            "id": 200002,
+            "name": "Meade Infinity 70",
+            "brand": "Meade",
+            "type": "линзовый",
+            "focalLength": "700",
+            "lensDiameter": "70",
+            "price": 230,
+            "discountPercentage": 0,
+            "image": "Meade_Infinity_70.jpg",
+            "description": "Один из самых удачных и популярных телескопов! Расширенная комплектация, высочайшее качество сборки!"
+        },
+        {
+            "id": 200003,
+            "name": "Meade Polaris 127",
+            "brand": "Meade",
+            "type": "зеркальный",
+            "focalLength": "1000",
+            "lensDiameter": "127",
+            "price": 420,
+            "discountPercentage": 5,
+            "image": "Meade_Polaris_127.jpg",
+            "description": "Рефлектор Ньютона со встроенным корректором фокусного расстояния - из за этого немного мылит картинку."
+        },
+        {
+            "id": 200004,
+            "name": "Meade 8 LX90 ACF",
+            "brand": "Meade",
+            "type": "зеркально-линзовый",
+            "focalLength": "2032",
+            "lensDiameter": "203",
+            "price": 7670,
+            "discountPercentage": 3,
+            "image": "Meade_8_LX90_ACF.jpg",
+            "description": "Телескоп без комы на вилочной монтировке с системой автонаведения и стальной треноге."
+        },
+        {
+            "id": 200005,
+            "name": "Meade 12 LX600 ACF",
+            "brand": "Meade",
+            "type": "зеркально-линзовый",
+            "focalLength": "2438",
+            "lensDiameter": "305",
+            "price": 11470,
+            "discountPercentage": 5,
+            "image": "Meade_12_LX600_ACF.jpg",
+            "description": "Телескоп премиум-класса для профессиональных занятий астрофотографией."
+        },
+        {
+            "id": 300001,
+            "name": "настольный Sky-Watcher Heritage 76",
+            "brand": "Sky-Watcher",
+            "type": "зеркальный",
+            "focalLength": "300",
+            "lensDiameter": "76",
+            "price": 180,
+            "discountPercentage": 3,
+            "image": "Sky-Watcher_Heritage_76.jpg",
+            "description": "Стильный короткофокусный рефлектор станет идеальным подарком начинающему любителю астрономии. С его помощью можно увидеть не только лунные кратеры и планеты Солнечной системы, но и наиболее яркие объекты дальнего космоса."
+        },
+        {
+            "id": 300002,
+            "name": "Sky-Watcher BK 707AZ2",
+            "brand": "Sky-Watcher",
+            "type": "линзовый",
+            "focalLength": "700",
+            "lensDiameter": "70",
+            "price": 360,
+            "discountPercentage": 7,
+            "image": "Sky-Watcher_BK_707AZ2.jpg",
+            "description": "Один из самых популярных телескопов! Простой и с хорошей оптикой в которую можно увидеть кратеры и горы на Луне, планеты, знаменитые кольца Сатурна и многое другое"
+        },
+        {
+            "id": 300003,
+            "name": "Sky-Watcher BK 1149EQ1",
+            "brand": "Sky-Watcher",
+            "type": "зеркальный",
+            "focalLength": "900",
+            "lensDiameter": "114",
+            "price": 490,
+            "discountPercentage": 3,
+            "image": "Sky-Watcher_BK_1149EQ1.png",
+            "description": "Один из самых популярных телескопов в мире. Увеличение до 230 крат. Он покажет вам кольца Сатурна, десятки туманностей, галактик и звездных скоплений, позволит детально рассмотреть Лунные кратеры, горы и моря."
+        },
+        {
+            "id": 300004,
+            "name": "Sky-Watcher BK MAK90EQ1",
+            "brand": "Sky-Watcher",
+            "type": "зеркально-линзовый",
+            "focalLength": "1250",
+            "lensDiameter": "90",
+            "price": 570,
+            "discountPercentage": 3,
+            "image": "Sky-Watcher_BK_MAK90EQ1.jpg",
+            "description": "Благодаря современной зеркально-линзовой конструкции, длинна трубы составляем всего 27 см! Легко поместится на маленьком балконе. Телескоп удобно брать с собой в путешествия за город."
+        },
+        {
+            "id": 300005,
+            "name": "Sky-Watcher BK 909AZ3",
+            "brand": "Sky-Watcher",
+            "type": "линзовый",
+            "focalLength": "900",
+            "lensDiameter": "90",
+            "price": 560,
+            "discountPercentage": 0,
+            "image": "Sky-Watcher_BK_909AZ3.jpg",
+            "description": "Популярный 90-мм линзовый телескоп с прекрасной оптикой на азимутальной монтировке 3 поколения. Станет отличным выбором для новичков с серьёзными намерениями."
+        },
+        {
+            "id": 300006,
+            "name": "Sky-Watcher BK 1309EQ2",
+            "brand": "Sky-Watcher",
+            "type": "зеркальный",
+            "focalLength": "900",
+            "lensDiameter": "130",
+            "price": 760,
+            "discountPercentage": 0,
+            "image": "Sky-Watcher_BK_1309EQ2.jpg",
+            "description": "Мощный 130-мм телескоп. В него вы увидите Луну и крупные планеты Солнечной системы, объекты дальнего космоса: туманности и галактики. Один из лучших в своем классе!"
+        },
+        {
+            "id": 300007,
+            "name": "Sky-Watcher DOB 6",
+            "brand": "Sky-Watcher",
+            "type": "зеркальный",
+            "focalLength": "1200",
+            "lensDiameter": "150",
+            "price": 980,
+            "discountPercentage": 3,
+            "image": "Sky-Watcher_DOB_6.jpg",
+            "description": "Самая доступная модель на монтировке Добсона от Sky-Watcher. Один из лучших телескопов. Мощный 150-мм телескоп полупрофессионального уровня с увеличением до 300 крат!"
+        }
+    ]
+}

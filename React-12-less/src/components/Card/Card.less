@@ -1,0 +1,16 @@
+@import '../../mixins.less';
+
+@card-width: 200px;
+@card-height: 200px;
+
+.card.type-a {
+    .card-style(#00ffff, darken(#00ffff, 50));
+    width: @card-width;
+    height: @card-height;
+}
+
+.card.type-b {
+    .card-style(#ff00ff, darken(#00ffff, 50));
+    width: @card-width;
+    height: @card-height;
+}
