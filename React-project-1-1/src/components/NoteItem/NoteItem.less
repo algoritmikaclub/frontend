@@ -1,0 +1,39 @@
+@import '../../mixins.less';
+
+li {
+    background-color: rgb(0, 255, 153);
+    display: block;
+    list-style-type: none;
+    margin: 20px;
+    width: 28vw;
+    min-height: 28vw;
+    border-radius: 20px;
+    position: relative;
+    color: black;
+    text-shadow: white 0 0 3px, white 0 0 6px, white 0 0 9px;
+
+    div {
+        text-align: center;
+
+        span {
+            text-align: left;
+            padding: 20px 20px 0;
+            display: block;
+        }
+
+        textarea {
+            width: 24vw;
+            height: 19vw;
+            margin: 12px 6px;
+            font-size: 16px;
+            padding: 3px 6px;
+            border-radius: 6px;
+        }
+
+        .buttons {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+}

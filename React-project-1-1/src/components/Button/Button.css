@@ -1,0 +1,64 @@
+button.add {
+  margin: 10px;
+  padding: 10px 20px;
+  min-width: 240px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #cccccc;
+  border-radius: 20px;
+  background-color: navy;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button.add:hover {
+  background-color: #1a1aff;
+}
+button.edit {
+  margin: 3%;
+  padding: 3% 6%;
+  min-width: 40%;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  background-color: navy;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button.edit:hover {
+  background-color: #1a1aff;
+}
+button.del {
+  margin: 3%;
+  padding: 3% 6%;
+  min-width: 40%;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  background-color: #800046;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button.del:hover {
+  background-color: #ff1a97;
+}
+button.save {
+  margin: 6px;
+  padding: 6px 12px;
+  min-width: 60%;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  background-color: navy;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button.save:hover {
+  background-color: #1a1aff;
+}
