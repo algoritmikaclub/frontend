@@ -1,0 +1,19 @@
+@import '../../mixins.less';
+
+// .add, .edit, .save, .del
+
+button.add {
+    .button-style(@min-width: 240px, @offsets: 10px, @font-size: 20px, @bg-color: navy, @radius: 20px);
+}
+
+button.edit {
+    .button-style(@min-width: 40%, @offsets: 3%, @font-size: 12px, @bg-color: navy, @radius: 10px);
+}
+
+button.del {
+    .button-style(@min-width: 40%, @offsets: 3%, @font-size: 12px, @bg-color: rgb(128, 0, 70), @radius: 10px);
+}
+
+button.save {
+    .button-style(@min-width: 60%, @offsets: 6px, @font-size: 16px, @bg-color: navy, @radius: 10px);
+}
