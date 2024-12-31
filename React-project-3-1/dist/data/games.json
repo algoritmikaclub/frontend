@@ -1,0 +1,24 @@
+[
+    {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "releaseYear": 2017,
+        "developer": "Nintendo",
+        "genre": "Action-adventure",
+        "description": "An open-world game set in the land of Hyrule, where players control Link to defeat Calamity Ganon.",
+        "images": [
+            "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58",
+            "https://imageio.forbes.com/blogs-images/insertcoin/files/2017/03/breath-of-the-wild-bear.jpg?height=399&width=711&fit=bounds"
+        ]
+    },
+    {
+        "title": "God of War",
+        "releaseYear": 2018,
+        "developer": "Santa Monica Studio",
+        "genre": "Action-adventure",
+        "description": "Follow Kratos and his son Atreus as they journey through Norse mythology.",
+        "images": [
+            "https://image.api.playstation.com/vulcan/img/rnd/202010/2217/LsaRVLF2IU2L1FNtu9d3MKLq.jpg",
+            "https://media.wired.com/photos/5adf78d1c6901c5ee084059a/16:9/w_1624,h_914,c_limit/GameofWar.jpg"
+        ]
+    }
+]

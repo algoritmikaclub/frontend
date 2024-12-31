@@ -1,0 +1,32 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.content {
+  margin-top: 20px;
+}
+h1 {
+  margin-top: 40px;
+}
+.game-list,
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.game-card,
+.news-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+.cover-images img {
+  width: 100%;
+  border-radius: 5px;
+}
+.news-card img {
+  width: 100%;
+  border-radius: 5px;
+}
