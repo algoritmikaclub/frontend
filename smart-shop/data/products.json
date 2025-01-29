@@ -1,0 +1,121 @@
+{
+    "Смартфон Xiaomi 14T Pro 12GB/512GB": {
+        "brand": "Xiaomi",
+        "model": "14T Pro 12GB/512GB",
+        "OS": "Android",
+        "screen": {
+            "diagonal": 6.67,
+            "type": "AMOLED",
+            "width": 1220,
+            "height": 2712,
+            "updateRate": 144
+        },
+        "RAM": 12,
+        "ROM": 512,
+        "camera": 50,
+        "battery": 5000,
+        "images": [
+            "Xiaomi_14T_Pro_12GB512GB.png",
+            "Xiaomi_14T_Pro_12GB512GB_1.png",
+            "Xiaomi_14T_Pro_12GB512GB_2.png"
+        ],
+        "simSlots": 2,
+        "price": 850
+    },
+
+    "Смартфон Xiaomi Redmi Note 13 Pro+ 5G 12GB/512GB с NFC": {
+        "brand": "Xiaomi",
+        "model": "Redmi Note 13 Pro+ 5G 12GB/512GB",
+        "OS": "Android",
+        "screen": {
+            "diagonal": 6.67,
+            "type": "AMOLED",
+            "width": 1220,
+            "height": 2712,
+            "updateRate": 120
+        },
+        "RAM": 12,
+        "ROM": 512,
+        "camera": 200,
+        "battery": 5000,
+        "images": [
+            "Xiaomi_Redmi_Note_13_Pro_5G_12GB512GB_NFC.png",
+            "Xiaomi_Redmi_Note_13_Pro_5G_12GB512GB_NFC_1.png",
+            "Xiaomi_Redmi_Note_13_Pro_5G_12GB512GB_NFC_2.png"
+        ],
+        "simSlots": 2,
+        "price": 480
+    },
+
+    "Смартфон Apple iPhone 16 Pro 256GB": {
+        "brand": "Apple",
+        "model": "iPhone 16 Pro 256GB",
+        "OS": "Apple iOS",
+        "screen": {
+            "diagonal": 6.3,
+            "type": "OLED",
+            "width": 1206,
+            "height": 2622,
+            "updateRate": 120
+        },
+        "RAM": 8,
+        "ROM": 256,
+        "camera": 48,
+        "battery": 4685,
+        "images": [
+            "Apple_iPhone_16_Pro_256GB.png",
+            "Apple_iPhone_16_Pro_256GB_1.png",
+            "Apple_iPhone_16_Pro_256GB_2.png"
+        ],
+        "simSlots": 1,
+        "price": 1450
+    },
+
+    "Смартфон Samsung Galaxy S24 Ultra SM-S928B 256GB": {
+        "brand": "Samsung",
+        "model": "Galaxy S24 Ultra SM-S928B 256GB",
+        "OS": "Android",
+        "screen": {
+            "diagonal": 6.8,
+            "type": "AMOLED",
+            "width": 1440,
+            "height": 3120,
+            "updateRate": 120
+        },
+        "RAM": 12,
+        "ROM": 256,
+        "camera": 200,
+        "battery": 5000,
+        "images": [
+            "Samsung_Galaxy_S24_Ultra_SM-S928B_256GB.png",
+            "Samsung_Galaxy_S24_Ultra_SM-S928B_256GB_1.png",
+            "Samsung_Galaxy_S24_Ultra_SM-S928B_256GB_2.png"
+        ],
+        "simSlots": 2,
+        "price": 1040
+    },
+
+    "Смартфон Huawei Pura 70 ADY-LX9 12GB/256GB": {
+        "brand": "Huawei",
+        "model": "Pura 70 ADY-LX9 12GB/256GB",
+        "OS": "Android",
+        "screen": {
+            "diagonal": 6.6,
+            "type": "OLED",
+            "width": 1256,
+            "height": 2760,
+            "updateRate": 120
+        },
+        "RAM": 12,
+        "ROM": 256,
+        "camera": 50,
+        "battery": 4700,
+        "images": [
+            "Huawei_Pura_70_ADY-LX9_12GB_256GB.png",
+            "Huawei_Pura_70_ADY-LX9_12GB_256GB_1.png",
+            "Huawei_Pura_70_ADY-LX9_12GB_256GB_2.png"
+        ],
+        "simSlots": 2,
+        "price": 540
+    }
+}
