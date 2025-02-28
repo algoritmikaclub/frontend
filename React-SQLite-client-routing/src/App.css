@@ -1,0 +1,15 @@
+html {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    margin: 0;
+    padding: 40px 0 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+main {
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+    padding-bottom: 40px;
+}
