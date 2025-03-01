@@ -1,0 +1,19 @@
+h2 {
+  text-align: center;
+}
+a.link {
+  display: block;
+  margin: 0 auto;
+  max-width: 780px;
+  height: 32px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-size: 18px;
+}
+hr {
+  margin: 20px auto;
+  max-width: 780px;
+}
