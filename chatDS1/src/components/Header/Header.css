@@ -1,0 +1,54 @@
+header {
+  box-sizing: border-box;
+  height: 160px;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  box-shadow: 0px 0px 12px 0px #ffff00;
+}
+header img {
+  height: 120px;
+}
+header div {
+  display: inline-block;
+  vertical-align: top;
+}
+header div h1 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 68px;
+  background: linear-gradient(#00c8ff, #55ff00);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header div h1 span {
+  animation: change-color 1.2s linear infinite;
+}
+header div h1 span.first {
+  background: linear-gradient(#ffff00, #00ff00);
+  background-clip: text;
+  animation-delay: 0.3s;
+}
+header div h1 span.second {
+  background: linear-gradient(#00c8ff, #ff00ff);
+  background-clip: text;
+  animation-delay: 0.9s;
+}
+header div h1 span.third {
+  background: linear-gradient(#00ff00, #ff0000);
+  background-clip: text;
+  animation-delay: 0.6s;
+}
+header div h3 {
+  margin: -10px 0 0;
+  color: #ffffff;
+}
+@keyframes change-color {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

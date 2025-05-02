@@ -1,0 +1,25 @@
+src/  
+├── assets/             # лого чата (fun-chat-logo.png)  
+├── components/ 
+│   ├── Chat/           # Основной чат  
+│   │   ├── Chat.jsx 
+│   │   └── Chat.less
+│   ├── Message/        # Одно сообщение 
+│   │   ├── Message.jsx 
+│   │   └── Message.less
+│   ├── Input/           # Поле ввода сообщения 
+│   │   ├── Input.jsx 
+│   │   └── Input.less
+│   ├── Chat/           # Основной чат  
+│   │   ├── Chat.jsx 
+│   │   └── Chat.less
+│   ├── Header/         # Шапка чата  
+│   │   ├── Header.jsx 
+│   │   └── Header.less
+│   └── Footer/         # Подвал чата  
+│       ├── Footer.jsx 
+│       └── Footer.less
+├── hooks/              # Кастомный хук useLocalStorage
+├── utils/              # Функция API-запросов  
+├── App.jsx             # Главный компонент  
+└── main.jsx            # Точка входа (рендер App) 
