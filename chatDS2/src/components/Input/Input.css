@@ -1,0 +1,33 @@
+.input-form {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.input-form textarea {
+  width: calc(100% - 16px);
+  height: 64px;
+  padding: 8px;
+  border: 2px solid #ffffff;
+  border-radius: 16px;
+  font-size: 18px;
+}
+.input-form button {
+  position: absolute;
+  right: 0;
+  bottom: -38px;
+  padding: 6px 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.input-form textarea:disabled,
+.input-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.input-form button:disabled {
+  background: #ccc;
+}
