@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Используем переменные */
+  --bg-color: #aaaaaa;
+  --text-color: #000000;
+
+  --ai-message-bg-color: #d0ffd1;
+}
+
+html[data-theme='dark'] {
+    --bg-color: #333333;
+    --text-color: #ffffff;
+
+    --ai-message-bg-color: #172819;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  overflow: hidden;
+}
+

@@ -1,0 +1,15 @@
+.theme-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: gray;
+  border: 2px solid white;
+  color: white;
+}
